@@ -3,13 +3,13 @@
 Plugin Name: GoldFash Sync
 Plugin URL: https://goldfash.com
 Description: A Required Sync Plugin for GoldFash Servers
-Version: 1.0
+Version: 1.1
 Author: GoldFash Web Gurus
 Author URI:        https://goldfash.com
 Contributors:      rafcoafc
 Domain Path:       /languages
 Text Domain:       gf_scd
-GitHub Plugin URI: https://github.com/goldfashhosting/Gold-Secure-Encryption
+GitHub Plugin URI: https://github.com/goldfashhosting/GoldFash-Sync
 GitHub Branch:     therealHosting
 */
 /*
