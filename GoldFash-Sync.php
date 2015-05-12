@@ -3,7 +3,7 @@
 Plugin Name: GoldFash Sync
 Plugin URL: https://goldfash.com
 Description: A Required Sync Plugin for GoldFash Servers
-Version: 1.1
+Version: 1.2
 Author: GoldFash Web Gurus
 Author URI:        https://goldfash.com
 Contributors:      rafcoafc
@@ -55,6 +55,20 @@ class gf_sweet_custom_dashboard {
 
  
 }
+
+/* Display a notice that can be dismissed */
+add_action('admin_notices', 'gold_admin_notice');
+function gold_admin_notice() {
+	global $current_user ;
+        $user_id = $current_user->ID;
+        /* Check that the user hasn't already clicked to ignore the message */
+	if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {
+        echo '<div class="updated"><p>'; 
+        printf(__('Welcome to your backend Dashboard Area. Support and more are available from your dashboard! | <a href="%1$s">GoldFash Dash</a>'), '../wp-admin/admin.php?page=gf-dashb');
+        echo "</p></div>";
+	}
+}
+
  
 // instantiate plugin's class
 $GLOBALS['sweet_custom_dashboard'] = new gf_sweet_custom_dashboard();
