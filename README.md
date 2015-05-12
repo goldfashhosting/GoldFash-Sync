@@ -28,6 +28,11 @@ This plugin has been translated into the following languages:
 
 
 == Changelog ==
+= 1.2.0 =
+* Enabled Ability to logout
+
+= 1.2 = 
+* Initial Commit.
 
 = 1.1 =
 
