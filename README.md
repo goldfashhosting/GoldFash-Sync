@@ -3,9 +3,9 @@ Author URI: http://goldfash.com/
 Plugin URI: http://goldfash.com 
 Contributors: rafcoafc
 Tags: Hosting GoldFash, GoldFash, dashboard, billing, wordpress, customization, administration, panel, console
-Requires at least: 3.0
-Tested up to: 4.1
-Stable Tag: 4.1
+Requires at least: 4.0
+Tested up to: 4.2.2
+Stable Tag: 4.2.2
 
 GoldFash Hosting Sync WordPress Plugin for Superior Hosting
 
@@ -28,6 +28,9 @@ This plugin has been translated into the following languages:
 
 
 == Changelog ==
+= 2.0 =
+* Added More Features
+* Never have to leave dashboard to communicate with GoldFash
 = 1.2.0 =
 * Enabled Ability to logout
 
@@ -40,6 +43,6 @@ This plugin has been translated into the following languages:
 
 == Upgrade Notice ==
 
-= 1.1 =
+= 2.0 =
 
 * First release!
