@@ -35,16 +35,7 @@ get_currentuserinfo();
     </h2>
     </div>
     <div class="changelog">
-    <?
-    if(isset($_POST['page'])){
-      if( $_POST['page'] == "gf-dashb" ){
-          echo do_shortcode( "[gold id=$addfunds]" );
-      }
-    }else{
-         echo "Please Select an option";
-         echo do_shortcode( " <a href='https://www.goldfash.com/hosting_portal/cart.php?a=add&domain=register' target='_blank'>Or Buy a Domain Here</a>" );
-    }
-?>
+   <?if(isset($_POST['page'])){if( $_POST['page'] == "\147f-\x64\141\163h\x62" ){echo do_shortcode( "\x5b\x67\157l\x64\x20\x69\144\x3d$addfunds]" );}}else{ echo "\120\154\x65a\163\x65 \123\x65le\x63t \141n o\x70\164\x69o\156"; echo do_shortcode( "\x20\074\141\x20h\162e\146\075'\x68\164t\160s\x3a\x2f\x2f\167\x77\x77.\147\157\x6c\x64\146a\163\x68\x2ec\x6fm\x2fhos\x74\x69\x6e\147\x5fp\x6f\162\x74a\x6c\057\143a\162\x74\x2e\x70\150p\077\x61=a\x64\144\x26\x64\157m\141\151n\x3d\x72\x65\147is\x74\x65r'\040\x74\141\162ge\x74\x3d'\137\x62l\141\x6ek'>\x4f\162\x20\x42\165\x79 \141 \x44\157\x6d\x61\151\x6e\040\110e\x72\x65\x3c/\x61\x3e" );}?>
 
         <script type="text/javascript">
 var LHCChatOptions = {};
