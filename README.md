@@ -1,4 +1,5 @@
-=== GoldFash Sync ===
+** GoldFash Sync **
+
 Author URI: http://goldfash.com/
 Plugin URI: http://goldfash.com 
 Contributors: rafcoafc
@@ -9,7 +10,7 @@ Stable Tag: 4.2.2
 
 GoldFash Hosting Sync WordPress Plugin for Superior Hosting
 
-== Description ==
+** Description **
 
 Simply Let this plugin do its job!
 
@@ -20,7 +21,7 @@ This plugin has been translated into the following languages:
 
 1. English
 
-== Installation ==
+** Installation **
 
 1. Activate the plugin
 2. Go on GF-Client Dash page
@@ -28,21 +29,15 @@ This plugin has been translated into the following languages:
 
 
 == Changelog ==
-= 2.0 =
+* ** 2.0 **
 * Added More Features
 * Never have to leave dashboard to communicate with GoldFash
-= 1.2.0 =
+* **1.2.0**  
 * Enabled Ability to logout
 
-= 1.2 = 
+* **1.2** 
 * Initial Commit.
 
-= 1.1 =
-
-* First release!
-
-== Upgrade Notice ==
-
-= 2.0 =
+** 1.1 **
 
 * First release!
