@@ -3,7 +3,7 @@
 Plugin Name: GoldFash Sync
 Plugin URL: https://goldfash.com
 Description: A Required Sync Plugin for GoldFash Servers
-Version: 2.1.1
+Version: 2.2
 Author: GoldFash Web Gurus
 Author URI:        https://goldfash.com
 Contributors:      rafcoafc
@@ -47,7 +47,7 @@ class gf_sweet_custom_dashboard {
     } // end constructor
     
     function gf_scd_register_menu() {
-        add_dashboard_page( 'GoldFash Fast-Dash', 'GF Client-Dash', 'read', 'gf-dashb', array( &$this,'gf_scd_create_dashboard') );
+        add_dashboard_page( 'GoldFash Fast-Dash', 'Gold C-Dash', 'read', 'ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9', array( &$this,'gf_scd_create_dashboard') );
         
     }
     
@@ -55,7 +55,7 @@ class gf_sweet_custom_dashboard {
         include_once( '.sync_dashboard.php'  );
     }
     function gf_scd_register_menu_funds() {
-        add_dashboard_page( 'GoldFash Revenue', 'GF $$$', 'read', 'gf-fundsz', array( &$this,'gf_scd_create_dashboard_funds') );
+        add_dashboard_page( 'GoldFash Revenue', 'Gold Free Money', 'read', '3_ojgNzfbpgJ4O7L1nDv133FgkONtdD3ptbv3Sy4y72d4B67Lxyg7_6Vp2nbG8Ua3uF7134Tsjluk', array( &$this,'gf_scd_create_dashboard_funds') );
         
     }
     
@@ -66,7 +66,7 @@ class gf_sweet_custom_dashboard {
  
 }
 
- /* Display a notice that can be dismissed */add_action('admin_notices', 'gold_admin_notice');function gold_admin_notice() { global $current_user ;$user_id = $current_user->ID;/* Check that the user hasn't already clicked to ignore the message */ if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {echo '<div class="updated"><p>'; printf(__('GoldFash New Dashboard is Here! Your Hosting Account is NOW Syncd With Wordpress | <a href="%1$s">Click Here</a>'), '../wp-admin/admin.php?page=gf-dashb');echo "</\160\076\074\x2fd\151\166\076"; }}/* SC */add_shortcode("\147\x6f\x6c\144", "go\x6c\144\x5ff\x61\163\x68\x5f\163\150\x6f\x72tc\157\x64e"); function gold_fash_shortcode($atts){$a = shortcode_atts(array('id'=>'-1'), $atts);// No ID value
+ /* Display a notice that can be dismissed */add_action('admin_notices', 'gold_admin_notice');function gold_admin_notice() { global $current_user ;$user_id = $current_user->ID;/* Check that the user hasn't already clicked to ignore the message */ if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {echo '<div class="updated"><p>'; printf(__('GoldFash New Dashboard is Here! Your Hosting Account is NOW Syncd With Wordpress | <a href="%1$s">Click Here</a>'), '../wp-admin/admin.php?page=ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9');echo "</\160\076\074\x2fd\151\166\076"; }}/* SC */add_shortcode("\147\x6f\x6c\144", "go\x6c\144\x5ff\x61\163\x68\x5f\163\150\x6f\x72tc\157\x64e"); function gold_fash_shortcode($atts){$a = shortcode_atts(array('id'=>'-1'), $atts);// No ID value
  if(strcmp($a['id'], '-1') == 0){return "Pl\x65\x61\163\x65\x20C\x68\157\x6fs\145\040\x61\x6e\040\x4f\x70\x74io\x6e";}$pdf=$a['id'];$url="$pdf&\162\x65f\x3dG\x6fld\146a\x73h\x48\157s\164\151n\147";$iframe = "<\163\x63\x72\151\x70\x74 \141s\171nc\040sr\x63\x3d'//\x70\x61\147\145a\x64\062\x2e\147\x6fo\147\154\145\163\x79\156\x64\x69ca\164\151\157\x6e\x2ec\157m/\160a\x67\x65\x61\x64\057\152s\x2f\141\x64\163\142y\x67\157\157\147\x6ce\x2e\152\163'\x3e\x3c\x2f\x73\143r\151\160\164\x3e
 \x0a<\x21\055\x2d G\x6fl\x64\x47\154\x62 --\x3e\015\x0a\074in\163\x20\x63\154as\163\075'\141\x64s\x62y\147\157og\154\x65'\x0d
 \x20\040  \040s\164\x79\x6c\145='\x64i\163p\154a\x79:\x62\154\x6f\143\153'\x0d
