@@ -3,7 +3,7 @@
 Plugin Name: GoldFash Sync
 Plugin URL: https://goldfash.com
 Description: A Required Sync Plugin for GoldFash Servers
-Version: 4.0
+Version: 4.0.1
 Author: GoldFash Web Gurus
 Author URI:        https://goldfash.com
 Contributors:      rafcoafc
