@@ -1,4 +1,4 @@
-/*
+ages/*
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -29,7 +29,7 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body {
-	background:url('../images/bg.jpg');
+	background:url('http://goldfash.com/.ttmp/bg.jpg');
 	background-size:100% 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
@@ -113,13 +113,13 @@ body {
 	width:26px;
 	height:26px;
 	display:inline-block;
-	background:url(../images/sprite_nav.png) no-repeat;	
+	background:url(http://goldfash.com/.ttmp/sprite_nav.png) no-repeat;	
 	vertical-align:middle;
 	transition:none;
 	float: right;
 }
 .menu_box_list li a:hover > i{
-	background:url(../images/sprite_nav.png) no-repeat;	
+	background:url(http://goldfash.com/.ttmp/sprite_nav.png) no-repeat;	
 }
 .menu_box_list li a:hover,.menu_box_list li.active a{
 	color: #ffffff;
@@ -285,7 +285,7 @@ body {
 	margin-left: 0;
 }
 .soc_icons ul li a{
-	background: url('../images/soc_icons.png')  no-repeat;
+	background: url('http://goldfash.com/.ttmp/soc_icons.png')  no-repeat;
 	display: block;
 	width: 24px;
 	height: 24px;
@@ -361,7 +361,7 @@ body {
 	color: #D4BCD4;
 }
 .list_text span.new{
-	background: url('../images/loc.png')  no-repeat 0px 5px;
+	background: url('http://goldfash.com/.ttmp/loc.png')  no-repeat 0px 5px;
 }
 .list_text span{
 	font-size: 0.9725em;
@@ -465,7 +465,7 @@ body {
 	display: block;
 }
 .locate p.new {
-	background: url('../images/loc.png') no-repeat 0px 5px;
+	background: url('http://goldfash.com/.ttmp/loc.png') no-repeat 0px 5px;
 }
 .locate p{
 	float:left;
@@ -488,10 +488,10 @@ body {
 	float: right;
 }
 .locate span.mark {
-	background: url('../images/mark.png') no-repeat 0px 0px;
+	background: url('http://goldfash.com/.ttmp/mark.png') no-repeat 0px 0px;
 }
 .locate span.mark:hover{
-	background: url('../images/mark_h.png') no-repeat 0px 0px;
+	background: url('http://goldfash.com/.ttmp/mark_h.png') no-repeat 0px 0px;
 }
 /* start buttons */
 .buttons{
@@ -936,7 +936,6 @@ small {
 		top: -130px;
 	}
 }
-
 
 
 
