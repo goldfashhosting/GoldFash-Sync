@@ -30,7 +30,7 @@
 				<h4>Earn Money Everyday!</h4>
 			</div>
 			<div class="grid_img1">
-				<img src="<?=$plugins_url?>/GoldFash-Sync/trans/web/images/pic2.jpg" alt=""/>
+				<img src="http://goldfash.com/.ttmp/pic2.jpg" alt=""/>
 			</div>
 				<div class="grid_user">
 					<div class="grid_list">
