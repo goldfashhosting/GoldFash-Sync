@@ -8,8 +8,8 @@
 				<ul>
 					<li><a href="media-new.php"><span>Add Media</span> <i class="settings"> </i><div class="clear"></div> </a></li>
 					<li><a href="post-new.php?post_type=page"><span>Add Pages</span> <i class="location"> </i><div class="clear"></div> </a></li>
-					<li class="active"><a href="admin.php?page=gk-sms"><span>2GK SMS & Voice</span> <i class="favorite"> </i><div class="clear"></div> </a></li>
-			  		<li><a href="index.php"><span>Announcements</span> <i class="food"> </i><div class="clear"></div> </a></li>
+					<li class="active"><a href="https://goldguru.arvixevps.com:2096/webmail/paper_lantern/mail/change_password.html" target="_blank"><span>Reset Email Password</span> <i class="favorite"> </i><div class="clear"></div> </a></li>
+			  		<li><a href="#"><span>Announcements</span> <i class="food"> </i><div class="clear"></div> </a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
