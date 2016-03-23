@@ -21,7 +21,7 @@
 			<div class="login_form">
 				<div class="follow">
 				<p> Order New Services, Talk to Support, Explore New Options, Add Users + More!</p>
-				<a href="?ui=gf-dashb&go=clientarea.php&#63;action=contacts&page=ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9">Click Here</a>
+				<a href="?ui=gf-dashb&go=clientarea.php&#63;action=contacts&page=ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9">One Click Login</a>
 			</div>
 			</div>
 		</div>
