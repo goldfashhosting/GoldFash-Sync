@@ -44,7 +44,7 @@ document.write(unescape('%3C%64%69%76%20%63%6C%61%73%73%3D%22%63%6F%6C%2D%6D%64%
 <div class="icon">
 <i class="fa fa-cc-stripe"></i>
 </div>
-<a href="admin.php?ui=addf.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=addf.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 Add Funds <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -68,7 +68,7 @@ document.write(unescape('%3C%64%69%76%20%63%6C%61%73%73%3D%22%63%6F%6C%2D%6D%64%
 <div class="icon">
 <i class="fa fa-money"></i>
 </div>
-<a href="admin.php?ui=viccof.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=viccof.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 Modify Card on File <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -84,7 +84,7 @@ Modify Card on File <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-shield"></i>
 </div>
-<a href="admin.php?ui=viau.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=viau.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 Authorized Users <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -100,7 +100,7 @@ Authorized Users <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-shield"></i>
 </div>
-<a href="admin.php?ui=addau.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=addau.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 Authorize Users <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -116,7 +116,7 @@ Authorize Users <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-safari"></i>
 </div>
-<a href="admin.php?ui=vaiof.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=vaiof.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 View Invoices <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -132,7 +132,7 @@ View Invoices <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-star"></i>
 </div>
-<a href="admin.php?ui=addt.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=addt.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 Contact Support <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -148,7 +148,7 @@ Contact Support <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-star"></i>
 </div>
-<a href="admin.php?ui=vatof.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=vatof.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 View All Tickets <i class="fa fa-spinner"></i>
 </a>
 </div>
@@ -164,7 +164,7 @@ View All Tickets <i class="fa fa-spinner"></i>
 <div class="icon">
 <i class="fa fa-wifi"></i>
 </div>
-<a href="admin.php?ui=news.ScliD.go&page=<? eval(gzinflate(base64_decode('S0mtCAAA')));?>&l" class="small-box-footer">
+<a href="admin.php?ui=news.ScliD.go&page=<?=$indexP?>&l" class="small-box-footer">
 View News <i class="fa fa-spinner"></i>
 </a>
 </div>
