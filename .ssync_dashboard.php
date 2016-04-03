@@ -33,7 +33,7 @@ $aff = $gfSLink['view.aff.acc'];
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="<?=$plugins_url?>/<?=$xi3?>/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=$plugins_url?>/GoldFash-Sync/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
@@ -106,7 +106,7 @@ document.write(unescape('%3C%73%63%72%69%70%74%20%74%79%70%65%3D%22%74%65%78%74%
     <!-- jQuery 2.1.4 -->
     <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
-    <script src="<?=$plugins_url?>/<?=$xi3?>/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?=$plugins_url?>/GoldFash-Sync/bootstrap/js/bootstrap.min.js"></script>
     <!-- FastClick -->
     <script src="<?=$plugins_url?>/<?=$xi3?>/plugins/fastclick/fastclick.min.js"></script>
     <!-- AdminLTE App -->
